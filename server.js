@@ -15,5 +15,5 @@ app.get('*', (req, res) => {
 
 const port = process.env.PORT || 3020;
 app.listen(port, () => {
-    console.log(`SERVER LAUNCHED: http://ec2-3-88-137-68.compute-1.amazonaws.com/${port}`);
+    console.log(`SERVER LAUNCHED port = ${port}`);
   });
